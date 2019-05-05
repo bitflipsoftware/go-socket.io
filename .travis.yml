@@ -1,9 +1,7 @@
 language: go
 go:
-  - master
-  - tip
-env:
-  - GO111MODULE=on
-script:
-  - make test
-  - ./gosweep.sh
+- 1.7.x
+- 1.11.x
+install:
+  - go get "github.com/smartystreets/goconvey/convey"
+  - go get -v .

@@ -1,1 +1,4 @@
-profile.cov
+
+.DS_Store
+.idea/
+go.sum

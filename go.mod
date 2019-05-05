@@ -1,6 +1,8 @@
-module github.com/googollee/go-socket.io
+module github.com/bitflipsoftware/go-socket.io
+
+go 1.12
 
 require (
-	github.com/googollee/go-engine.io v1.4.1
-	github.com/stretchr/testify v1.3.0
+	github.com/bitflipsoftware/go-engine.io v0.1.0
+	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a
 )
